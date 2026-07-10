@@ -1,4 +1,4 @@
-tap "nikitabobko/tap" # Aerospace
+tap "nikitabobko/tap"  # Aerospace
 tap "vvvvv/zig"        # for Zig nightly builds
 
 # CLI Tools
@@ -43,7 +43,7 @@ cask "raycast"
 # cask "docker"
 cask "podman-desktop"
 cask "ghostty"
-cask "aerospace"
+cask "nikitabobko/tap/aerospace", trusted: true
 cask "caffeine"
 cask "chatgpt"
 cask "claude"
@@ -57,5 +57,5 @@ cask "brave-browser"
 cask "font-jetbrains-mono-nerd-font"
 
 # Zig programming
-cask "zig@nightly"
+cask "vvvvv/zig/zig@nightly", trusted: true
 
