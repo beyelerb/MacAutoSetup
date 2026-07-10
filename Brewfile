@@ -1,5 +1,6 @@
 tap "nikitabobko/tap" # Aerospace
 tap "jorgerojas26/lazysql" 
+tap "vvvvv/zig"        # for Zig nightly builds
 
 # CLI Tools
 brew "git"
@@ -21,10 +22,14 @@ brew "kubectl"       # Kubernetes CLI
 brew "tailscale"     # Secure mesh VPN for homelab and remote access
 
 # Languages n stuff
-brew "python"
-brew "pipx"
-brew "node"
-brew "nvm"
+brew "uv"
+# brew "node"
+# brew "nvm"
+brew "fnm"          # fast node manager in rust
+brew "openjdk"
+brew "clojure"
+brew "go"
+brew "zig"
 
 # GNU Utilities
 brew "coreutils"
@@ -40,12 +45,17 @@ cask "docker"
 cask "ghostty"
 cask "aerospace"
 cask "caffeine"
-cask "discord"
 cask "chatgpt"
+cask "claude"
 cask "shottr"
-cask "caffeine" 
+cask "caffeine"
+cask "mattermost"
+cask "brave-browser" 
 # cash "zoom" - I don't want to install this by default
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
+
+# Zig programming
+cask ""
 
