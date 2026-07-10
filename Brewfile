@@ -29,7 +29,6 @@ brew "fnm"          # fast node manager in rust
 brew "openjdk"
 brew "clojure"
 brew "go"
-brew "zig"
 
 # GNU Utilities
 brew "coreutils"
@@ -58,5 +57,5 @@ cask "brave-browser"
 cask "font-jetbrains-mono-nerd-font"
 
 # Zig programming
-cask ""
+cask "zig@nightly"
 
