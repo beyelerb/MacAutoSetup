@@ -1,5 +1,4 @@
 tap "nikitabobko/tap" # Aerospace
-tap "jorgerojas26/lazysql" 
 tap "vvvvv/zig"        # for Zig nightly builds
 
 # CLI Tools
@@ -20,6 +19,7 @@ brew "stow"
 brew "neovim"
 brew "kubectl"       # Kubernetes CLI
 brew "tailscale"     # Secure mesh VPN for homelab and remote access
+brew "podman"
 
 # Languages n stuff
 brew "uv"
@@ -41,7 +41,8 @@ brew "gawk"
 cask "iterm2"
 cask "visual-studio-code"
 cask "raycast"
-cask "docker"
+# cask "docker"
+cask "podman-desktop"
 cask "ghostty"
 cask "aerospace"
 cask "caffeine"
